@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-#api list just for personal helpe
+#api list just for personal help
 tv_network_ids.js
 # dependencies
 /node_modules
