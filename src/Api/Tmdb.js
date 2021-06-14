@@ -90,4 +90,11 @@ export default {
     }
     return info;
   },
+  getTrailer: async (movieID) => {
+    const TRAILER = {};
+    TRAILER = await basicReq(
+      `https://api.themoviedb.org/3/movie/${movieID}/videos?api_key=${KEY}`,
+    );
+    return TRAILER;
+  },
 };

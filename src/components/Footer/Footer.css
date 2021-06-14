@@ -1,0 +1,115 @@
+
+/* effect underline */
+.underlineEffects ul { 
+  margin: 0 auto; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  text-align: center;
+}
+.underlineEffects li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+.underlineEffects a, .underlineEffectsFooter a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.underlineEffects a:after ,.underlineEffectsFooter a::after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.underlineEffects a:hover:after, .underlineEffectsFooter a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+/* home */
+#img{
+  width: 100%;
+  height: 100%;
+}
+.text-home{
+  color: white;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-family: 'Pridi';
+}
+.icons, .icons:hover{
+  text-decoration: none;
+  color: white;
+}
+/* contact */
+.my-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.my-subtitle{
+  font-family: 'Montserrat', sans-serif;
+}
+.contact .fa-clipboard:hover{
+color:#212529;
+}
+
+/* footer */
+footer a, footer a:hover{
+  text-decoration: none;
+  color: wheat;
+}
+.footer-copyright{
+  color: white;
+}
+.direitos strong{
+ color:  #DB202C;
+}
+/* btn-footer */
+.btn-footer .Netflix:hover {
+  background-color: #DB202C;
+  border-color: #DB202C;
+}
+.btn-footer .Tmdb:hover {
+  background-color: #032541;
+  border-color: #032541;
+}
+.btn-footer .btn-outline-primary  {
+  border-color: #fff;
+}
+ footer .btn {
+  border-radius: 3px;
+  margin-right: 0.5%;
+}
+
+footer .icons-use a{
+padding-left: 10px;
+}
+footer .disable{
+  color: #C1666B;
+  text-decoration: line-through;
+  pointer-events: none;
+  cursor: default;
+}
+.icons-use .fa-instagram:hover {
+  color: #C1666B;
+}
+.icons-use .fa-linkedin:hover {
+  color: #42c9c0;
+}
+.icons-use .fa-github:hover {
+  color: #717568;
+}
+footer{
+  overflow-x: hidden;
+}
