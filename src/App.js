@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import Tmdb from './Api/Tmdb';
 import MovieRow from './components/movieRow/movieRow';
-import './App.css';
 import FeatureMovie from './components/FeatureMovie/FeatureMovie';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import './App.css';
 
 function App() {
   const [movieList, setMovieList] = useState([]);
@@ -51,6 +51,14 @@ function App() {
           <MovieRow key={key} title={item.title} itens={item.itens} />
         ))}
       </section>
+      {movieList.length <= 0 && (
+        <div className='loading'>
+          <img
+            src='https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif'
+            alt='loading'
+          ></img>
+        </div>
+      )}
       <Footer />
     </div>
   );

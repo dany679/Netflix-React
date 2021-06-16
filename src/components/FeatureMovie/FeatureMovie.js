@@ -1,12 +1,26 @@
 import React from 'react';
 import './FeatureMovie.css';
+import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import AddIcon from '@material-ui/icons/Add';
 
 const FeatureMovie = ({ item }) => {
   console.log('o item ', item);
-  let first_date = new Date(item.first_air_date);
-  let genres = [];
+  const first_date = new Date(item.first_air_date);
+  const genres = [];
   for (let i in item.genres) {
     genres.push(item.genres[i].name);
+  }
+  let overview = item.overview;
+  const LengthOverview = 250;
+  if (overview.length > LengthOverview) {
+    if (
+      overview[LengthOverview + 1] !== '.' &&
+      overview[LengthOverview + 2] !== ' ' &&
+      overview[LengthOverview + 3] !== ' '
+    ) {
+      overview = overview.substring(0, LengthOverview);
+      overview = overview + '...';
+    }
   }
   return (
     <section
@@ -30,13 +44,15 @@ const FeatureMovie = ({ item }) => {
               {item.number_of_seasons !== 1 ? 's' : ''}
             </div>
           </div>
-          <div className='featured--overview'>{item.overview}</div>
+          <div className='featured--overview'>{overview}</div>
           <div className='featured--buttons'>
             <a href='#!' className='featured--buttonWatch'>
-              ▶ assistir
+              <PlayArrowIcon />
+              assistir
             </a>
             <a href='#!' className='featured--buttonList'>
-              +minha lista
+              <AddIcon />
+              minha lista
             </a>
           </div>
           <div className='featured--genre'>

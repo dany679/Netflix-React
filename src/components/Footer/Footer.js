@@ -1,4 +1,7 @@
 import React from 'react';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import './Footer.css';
 
 const Footer = () => {
@@ -71,27 +74,44 @@ const Footer = () => {
           <!-- Grid column --> */}
         <div className='col-md-4'>
           <div className='icons-use'>
-            <a
+            {/* <a
               href='https://www.instagram.com/nops_/'
               rel='noreferrer'
               target='_blank'
             >
               <i className='fab fa-instagram fa-3x'></i>{' '}
+            </a> */}
+            <a
+              href='https://www.instagram.com/nops_/'
+              rel='noreferrer'
+              target='_blank'
+            >
+              <InstagramIcon
+                className='fab fa-instagram '
+                style={{ fontSize: 50 }}
+              />
             </a>
+
             <a
               href='https://www.linkedin.com/in/danielly-silva-8b6838210/'
               target='_blank'
               rel='noreferrer'
             >
-              {' '}
-              <i className='fab fa-linkedin fa-3x '></i>
+              {/* {' '}
+              <i className='fab fa-linkedin fa-3x '></i> */}
+              <LinkedInIcon
+                className='fab fa-linkedin '
+                style={{ fontSize: 50 }}
+              />
             </a>
             <a
               href='https://github.com/dany679/'
               rel='noreferrer'
               target='_blank'
+              className='fab fa-github'
             >
-              <i className='fab fa-github fa-3x'></i>
+              {/* <i className='fab fa-github fa-3x'></i> */}
+              <GitHubIcon style={{ fontSize: 40 }} />
             </a>
           </div>
         </div>
@@ -104,7 +124,7 @@ const Footer = () => {
       <!-- Copyright --> */}
         <div className=' footer-copyright  btn-footer py-3  '>
           <h6 className=' direitos justify-content-center'>
-            Todos os direitos de imagens a<strong> Netflix</strong>
+            Todos os direitos de imagens à<strong> Netflix</strong>
           </h6>
           <h6>Api usada Tmdb</h6>
           <button className='btn btn-outline-primary Tmdb mb-3'>
