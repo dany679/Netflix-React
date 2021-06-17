@@ -1,6 +1,7 @@
-![homer-netflix 30%](https://user-images.githubusercontent.com/59980463/121776595-24d46700-cb64-11eb-8942-a378d2472d37.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/59980463/122485388-20b5a880-cfad-11eb-92af-57ddfc663016.gif)
 
-<p align='center'>95% home netflix finish<p/>
+
+<p align='center'> home netflix finish<p/>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto sera a home page do netflix 
+O projeto sera a home page do netflix irei atualizar depois adicionar trailer.
 
 ## :memo: Licença
 
