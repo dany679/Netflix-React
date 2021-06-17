@@ -57,11 +57,11 @@ opacity: 1;
     transition: all ease 0.2s;
     opacity: 0.7;
 }
-.featured--buttonWatch{
+.featured--buttonWatch,.featured--buttonWatch:hover{
     color: #fff;
     background-color: #333;
 }
-.featured--buttonList{
+.featured--buttonList,.featured--buttonList:hover{
     color: #111;
     background-color: #fff;
 }

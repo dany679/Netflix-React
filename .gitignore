@@ -10,7 +10,7 @@ tv_network_ids.js
 /coverage
 
 # production
-/build
+
 
 # misc
 .DS_Store

@@ -1,6 +1,6 @@
 ![homer-netflix 30%](https://user-images.githubusercontent.com/59980463/121776595-24d46700-cb64-11eb-8942-a378d2472d37.png)
 
-<p align='center'>50% home netflix finish<p/>
+<p align='center'>95% home netflix finish<p/>
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

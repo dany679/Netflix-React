@@ -72,8 +72,10 @@ const Footer = () => {
         {/* <!-- Grid column -->
     
           <!-- Grid column --> */}
+
         <div className='col-md-4'>
           <div className='icons-use'>
+            <h5 className='text-uppercase underlineEffects'>Social Contacts</h5>
             {/* <a
               href='https://www.instagram.com/nops_/'
               rel='noreferrer'
