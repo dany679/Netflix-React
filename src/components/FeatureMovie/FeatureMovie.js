@@ -15,8 +15,8 @@ const FeatureMovie = ({ item }) => {
   if (overview.length > LengthOverview) {
     if (
       overview[LengthOverview + 1] !== '.' &&
-      overview[LengthOverview + 2] !== ' ' &&
-      overview[LengthOverview + 3] !== ' '
+      overview[LengthOverview + 2] != null &&
+      overview[LengthOverview + 3] != null
     ) {
       overview = overview.substring(0, LengthOverview);
       overview = overview + '...';

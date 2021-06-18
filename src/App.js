@@ -44,7 +44,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Header black={blackHeader} />
+      <Header className='header' black={blackHeader} />
       {featureData && <FeatureMovie item={featureData} />}
       <section className='list'>
         {movieList.map((item, key) => (
