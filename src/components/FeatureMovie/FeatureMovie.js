@@ -11,7 +11,7 @@ const FeatureMovie = ({ item }) => {
     genres.push(item.genres[i].name);
   }
   let overview = item.overview;
-  const LengthOverview = 250;
+  const LengthOverview = 220;
   if (overview.length > LengthOverview) {
     if (
       overview[LengthOverview + 1] !== '.' &&

@@ -2,20 +2,21 @@
     margin-bottom: 30px;
 }
 .movieRow h2{
-    margin: 0;
-    margin-left: 30px;
+
     text-transform: capitalize ;
 }
 .movieRow--listArea{
+    margin-left:30px ;
+    margin-right: 30px;
     overflow-x: hidden;
 
 }
 .movieRow--list{
     transition: all ease 0.5s;
-}
-.movieRow--list{
+    margin: 0;
     cursor: pointer;
 }
+
 
 .movieRow--item{
     display: inline-block;

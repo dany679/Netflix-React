@@ -16,7 +16,7 @@ const MovieRow = ({ title, itens }) => {
   };
   const scrollXRight = () => {
     let moveRight = scrollX - window.innerWidth / 2;
-    const movieWidth = itens.results.length * 170;
+    const movieWidth = itens.results.length * 170 + 60;
     if (window.innerWidth - movieWidth > moveRight) {
       moveRight = window.innerWidth - movieWidth;
     }
