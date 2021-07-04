@@ -2,7 +2,9 @@
   <img alt="netflix-home" src="https://user-images.githubusercontent.com/59980463/122485388-20b5a880-cfad-11eb-92af-57ddfc663016.gif">
 </p>
 
-
+<p>Link para visitar o site : 
+<a href="https://netflix-clone-q8xyoc18a-dany679.vercel.app/" />Demo</a>
+</p>
 <p align='center'> home netflix finish<p/>
 
 <p align="center">
