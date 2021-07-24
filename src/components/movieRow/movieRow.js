@@ -45,8 +45,7 @@ const MovieRow = ({ title, itens }) => {
                 <img
                   key={key}
                   src={`https://image.tmdb.org/t/p/w200${item.poster_path}`}
-                  alt=''
-                  // {item.original_title}
+                  alt={item.original_title}
                 />
               </div>
             ))}

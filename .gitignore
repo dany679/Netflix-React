@@ -22,3 +22,5 @@ tv_network_ids.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.vercel
