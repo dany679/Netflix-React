@@ -3,7 +3,7 @@
 </p>
 
 <p>Link para visitar o site : 
-<a href="https://netflix-clone-q8xyoc18a-dany679.vercel.app/"/>demo</a>
+<a href="https://netflix-clone-q8xyoc18a-dany679.vercel.app/" />Demo</a>
 </p>
 <p align='center'> home netflix finish<p/>
 
